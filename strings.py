@@ -1,8 +1,10 @@
 #Advanced concepts - Strings
 
-message = 'Hello'
+message = ' Hello,  World! '
 
-print (message[0])
-print (message[1])
+print(message.strip()) # Removes leading and trailing whitespace
+print(message.lower()) # Convert all characters to lowercase
+print(message.split(',')) # Split the string into a  list based on the coma
 
-print (message[-1])
+#upper method 
+#replace method
